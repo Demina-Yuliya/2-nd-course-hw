@@ -1,0 +1,198 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+  }
+
+  .top {
+    background-color: rgb(225, 255, 143);
+    background-image: url(./img/head/starbig.png), url(./img/head/blockstar1.png), url(./img/head/blockstar2.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 233% 100%, 69px 63px, 948px 538px;
+  }
+
+.top__text {
+    width: 768px;
+    padding-top: 196px;
+    padding-bottom: 156px;
+    margin-left: 120px;
+}
+
+.top__title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.top__title-description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.top__button {
+    margin-top: 48px;
+    width: 247px;
+    height: 66px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background-color: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+.top__button:hover {
+    background: rgb(255, 255, 255);
+    color:  rgb(32, 32, 39);
+}
+
+.top__line {
+    height: 90px;
+    background: rgb(188, 236, 48);
+}
+
+.for {
+    background-color: rgb(32, 32, 39);
+    background-image: url(./img/for/Star\ 1.png), url(./img/for/blockstar3.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 933px 77px, 25px 770px;
+}
+
+
+.for__text {
+    margin-left: 120px;
+    padding-bottom: 72px;
+}
+
+.for__title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 94px;
+}
+
+.for__title-description {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.for__conteiner {
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    column-gap: 32px;
+    margin-left: 119px;
+    margin-right: 123px;
+    padding-bottom: 50px;
+}
+
+.for__game1 {
+    width: 378px;
+    height: 473px;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.for__game1:hover {
+    transform: scale(1.1);
+}
+
+.for__img {
+    border-radius: 30px;
+}
+
+
+.for__game-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(32, 32, 39);
+    padding-top: 40px;
+    padding-bottom: 26px;
+    padding-left: 48px;
+}
+
+.for__game-description {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(32, 32, 39);
+    padding-left: 32px;
+    padding-bottom: 36px;
+}
+
+.for__game2 {
+    width: 378px;
+    height: 512px;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.for__game2:hover {
+    transform: scale(1.1);
+}
+
+.for__game3 {
+    width: 378px;
+    height: 473px;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.for__game3:hover {
+    transform: scale(1.1);
+}
+
+.for__game4 {
+    width: 378px;
+    height: 551px;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.for__game4:hover {
+    transform: scale(1.1);
+}
+
+.for__game5 {
+    width: 378px;
+    height: 512px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 39px;
+    transition: transform 0.5s;
+}
+
+.for__game5:hover {
+    transform: scale(1.1);
+}
+
+.for__game6 {
+    width: 378px;
+    height: 551px;
+    border-radius: 30px;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.for__game6:hover {
+    transform: scale(1.1);
+}
