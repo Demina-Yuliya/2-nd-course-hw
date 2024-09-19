@@ -8,6 +8,7 @@ body {
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
   }
 
   .center {
@@ -43,6 +44,9 @@ body {
 
 .top__button {
     margin-top: 48px;
+}
+
+.top__button-link {
     width: 247px;
     height: 66px;
     box-sizing: border-box;
@@ -52,11 +56,15 @@ body {
     color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
+    padding-top: 16px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 16px;
     font-size: 24px;
     font-family: inherit;
 }
 
-.top__button:hover {
+.top__button-link:hover {
     background: rgb(255, 255, 255);
     color:  rgb(32, 32, 39);
 }
@@ -77,6 +85,7 @@ body {
 .for__text {
     margin-left: 120px;
     padding-bottom: 72px;
+    width: 788px;
 }
 
 .for__title {
@@ -118,14 +127,22 @@ body {
     border-radius: 30px;
 }
 
+.for__game-title {
+    width: 108px;
+    height: 36px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 52.58px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
 
 .for__game-name {
     font-size: 16px;
     font-weight: 500;
     color: rgb(32, 32, 39);
-    padding-top: 40px;
-    padding-bottom: 26px;
-    padding-left: 48px;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .for__game-description {
