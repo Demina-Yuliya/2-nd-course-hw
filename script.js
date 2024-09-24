@@ -61,48 +61,40 @@ let k = Number(2);
 let l = Number(3);
 alert(k + l);
 
-let monthNumber = Number(prompt('Введите месяц по счету'));
+let monthNumber = prompt('Введите номер месяца');
 switch (monthNumber) {
+    case '12':
     case '1':
-        console.log('Январь, Зима');
-        break;
     case '2':
-        console.log('Февраль, Зима');
+        console.log("Зима");
         break;
     case '3':
-        сonsole.log('Март, Весна');
-        break;
     case '4':
-        сonsole.log('Апрель, Весна');
-        break;
     case '5':
-        сonsole.log('Май, Весна');
+        console.log("Весна");
         break;
     case '6':
-        сonsole.log('Июнь, Лето');
-        break;
     case '7':
-        сonsole.log('Июль, Лето');
-        break;
     case '8':
-        сonsole.log('Август, Лето');
+        console.log("Лето");
         break;
     case '9':
-        сonsole.log('Сентябрь, Осень');
-        break;
     case '10':
-        сonsole.log('Октябрь, Осень');
-        break;
     case '11':
-        console.log('Ноябрь, Осень');
-        break;
-    case '12':
-        console.log('Декабрь, Зима');
+        console.log("Осень");
         break;
     default:
-        if (monthNumber > 12) console.log('не верное число');
-        break;
+        console.log("Что-то пошло не так.");
 }
+
+let variable = prompt('Введите любое число');
+let results = Number(variable);
+
+if (isNaN(results)) { alert('Введенное значение не является числом') }
+else { alert('Введенное значение явлется числом') };
+
+if (results % 2 === 0) { alert('Введенное число является четным') }
+else { alert('Введенное число является не четным') };
 
 let clientOS = Number(prompt('Укажите вашу операционную систему 0-iOS, 1-Android'));
 if (clientOS < 0) { alert('Значение введено не верно') }
