@@ -12,9 +12,9 @@ let j = Number(prompt('Введите второе число'));
 if (h > 100 || j > 100) { console.log('Верно') }
 else { console.log('Не верно') };
 
-let k = Number(2);
-let l = Number(3);
-alert(k + l);
+let k = 2;
+let l = 3;
+alert(+k + +l);
 
 let monthNumber = prompt('Введите номер месяца');
 switch (monthNumber) {

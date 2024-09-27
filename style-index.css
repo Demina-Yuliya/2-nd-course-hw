@@ -356,7 +356,7 @@ body {
   .top__text {
     width: 343px;
     padding-top: 147px;
-    padding-left: 17px;
+    padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 156px;
   }
@@ -529,6 +529,7 @@ body {
     padding-left: 32px;
     padding-bottom: 36px;
   }
+
   .minigames {
     display: none;
   }
